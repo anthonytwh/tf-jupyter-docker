@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  tf-jupyter:
+    image: tf-jupyter
+    restart: always
+    ports:
+      - 8888:8888
+    volumes:
+      - ./tf-jupyter:/tf-jupyter
+    network:
+      - tf-jupyter-network
+
+networks:
+  - tf-jupyter-network
