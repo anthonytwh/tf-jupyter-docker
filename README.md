@@ -1,6 +1,12 @@
 # tf-jupyter-docker
 
-Containerized Jupyter notebook with TensorFlow template.
+Template for a TensorFlow Jupyter notebook in a Docker container.
+
+**Steps**:
+
+1) Build
+2) Run
+3) Open Jupyter server link in browser
 
 ### To build:
 
