@@ -1,16 +1,18 @@
 # tf-jupyter-docker
 
-Containerized Jupyter notebook with TensorFlow.
+Containerized Jupyter notebook with TensorFlow template.
 
-To build:
+### To build:
 
 `./build.sh`
 
-To run:
+### To run:
 
 `./start.sh`
 
-Default Python3 Packages (latest unless specified):
+* Add options to _docker run_ command (ex. gpu, cpu, memory, etc.): https://docs.docker.com/engine/reference/commandline/run/
+
+### Default Python3 Packages (latest unless specified):
 
 ```
     pip \
@@ -22,4 +24,4 @@ Default Python3 Packages (latest unless specified):
     seaborn \
     scikit-learn \
     jupyter
-``
+```
